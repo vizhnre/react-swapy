@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "react-swapy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "A react wrapper for the swapy library - https://swapy.tahazsh.com/",
   "main": "./dist/index.cjs",
