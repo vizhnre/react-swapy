@@ -25,3 +25,7 @@ declare interface SwapyApi {
     onSwap(callback: SwapCallback): void;
     enable(enabled: boolean): void;
 }
+
+declare module 'swapy' {
+    export function createSwapy(root: Element | null, config?: any): SwapyApi;
+}

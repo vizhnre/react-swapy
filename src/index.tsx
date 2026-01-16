@@ -1,6 +1,7 @@
-import Container from './Container.tsx'
-import Slot from './Slot.tsx'
-import Item from './Item.tsx'
-import Handle from './Handle.tsx'
+import Container from './Container.js'
+import Slot from './Slot.js'
+import Item from './Item.js'
+import Handle from './Handle.js'
 
-export default { Container, Slot, Item, Handle }
+export { Container, Slot, Item, Handle }
+export default Container

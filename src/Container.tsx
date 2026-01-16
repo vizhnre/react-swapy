@@ -14,8 +14,8 @@ const Container: React.FC<ContainerProps> = ({ enable = true, onSwap = () => { }
 
     useEffect(() => {
         swapy.current = createSwapy(document.querySelector('#react-swapy'), config)
-        swapy.current.enable(enable)
-        swapy.current.onSwap(onSwap)
+        swapy.current?.enable(enable)
+        swapy.current?.onSwap(onSwap)
     }, [])
 
     useEffect(() => {
